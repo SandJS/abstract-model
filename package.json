@@ -1,0 +1,33 @@
+{
+  "name": "sand-abstract-model",
+  "version": "0.0.0",
+  "description": "Abstract model layer",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/mocha --require should --harmony --recursive ./test/model.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandJS/abstract-model.git"
+  },
+  "keywords": [
+    "Model",
+    "Abstract"
+  ],
+  "author": "Adam Jaso <ajaso@sazze.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SandJS/abstract-model/issues"
+  },
+  "homepage": "https://github.com/SandJS/abstract-model#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-bind": "^1.0.0",
+    "lodash": "^4.0.1",
+    "pasync": "^1.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.1"
+  }
+}
