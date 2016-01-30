@@ -1,2 +1,2 @@
-# node-abstract-model
+# Abstract Model
 Abstract Asynchronous Data Model API
