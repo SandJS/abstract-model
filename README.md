@@ -72,3 +72,6 @@ co(function *() {
   console.log(users);
 });
 ```
+
+## More Examples
+See [SandJS MySQL Model](https://github.com/SandJS/mysql/blob/master/lib/Model.js) for a full example.
