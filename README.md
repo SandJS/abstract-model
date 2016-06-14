@@ -50,7 +50,7 @@ const ImageModel = require('./ImageModel');
 
 class UserModel extends AbstractModel {
   *load(row, opts) {
-    // this will ensure that the row object gets wrapped
+    // this will ensure that the row object gets wrapped onto this instance
   	 yield super.load(row, opts);
   	 
   	 // this.id is an (example) Integer user id that got applied
